@@ -47,4 +47,4 @@ with mlflow.start_run():
     mlflow.log_metric("accuracy", acc)
     mlflow.sklearn.log_model(model, "model")
 
-    print(f"Run logged to mlflow. accuracy: {acc:.3f}")
+    print(f"Run logged to mlflow. \naccuracy: {acc:.3f}")
