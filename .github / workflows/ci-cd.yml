@@ -3,7 +3,7 @@ name: CI-CD for Iris ML Model
 on:
   push:
     branches:
-      -master 
+      - master 
     
 jobs:
   build-and-train:
